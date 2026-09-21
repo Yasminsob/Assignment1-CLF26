@@ -1,0 +1,165 @@
+
+/* furniture positions */
+.collage {
+    position: relative;
+    width: 900px;
+    height: 700px;
+    margin: 100px auto;
+}
+.collage-img {
+    position: absolute;
+    object-fit: contain;
+}
+
+.couch {
+    width: 400px;
+    left: 200px;
+    top: 200px;
+    z-index: 1;
+}
+
+.lamp {
+    width: 100px;
+    left: 250px;
+    top: 100px;
+    z-index: 2;
+}
+
+.rug {
+    width: 600px;
+    right: 150px;
+    top: 150px;
+    z-index: 2;
+}
+
+.closet {
+    width: 400px;
+    left: 500px;
+    top: 100px;
+}
+
+.me {
+    width: 350px;
+    left: 300px;
+    bottom: 60px;
+    z-index: 2;
+}
+
+/* tops settings */
+.mySlides {
+    width: 200px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* bottoms settings */
+.mySlides2 {
+    width: 400px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.slideshow2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -195px;
+}
+
+/* my face */
+.face {
+    position: absolute;
+    top: 150px;
+    left: 430px;
+}
+
+/* bag link position */
+.bag-link {
+    position: absolute;
+    left: 170px;
+    top: 60%;
+    transform: translateY(-50%);
+}
+/* bag settings */
+.my-bag {
+    width: 550px;
+    position: absolute;
+    left: 10px;
+    top: 200px;
+}
+
+/* settings of items in my bag */
+.laptop {
+    position: absolute;
+    left: 460px;
+    top: 100px;
+}
+
+.laptop img {
+    width: 250px;
+}
+
+
+.water {
+    position: absolute;
+    left: 750px;
+    top: 300px;
+}
+
+.water img {
+    width: 210px;
+}
+
+
+.wallet {
+    position: absolute;
+    left: 500px;
+    top: 450px;
+}
+
+.wallet img {
+    width: 150px;
+}
+
+
+.keys {
+    position: absolute;
+    left: 900px;
+    top: 100px;
+}
+
+.keys img {
+    width: 180px;
+}
+
+
+.charger {
+    position: absolute;
+    left: 900px;
+    top: 500px;
+}
+
+.charger img {
+    width: 250px;
+}
+
+
+/* captions */
+
+p {
+    font-family: "Anton", sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+/* font */
+body {
+    font-family: "Anton", sans-serif;
+}
